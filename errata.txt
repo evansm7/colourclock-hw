@@ -1,0 +1,6 @@
+Revision A errata:
+
+1:	Footprint for D16 too small (or D16 too big)
+
+2:	Pin 1 of 4-pin jumper 'SW' is 3.3V; it would be more useful to have routed nRST to this pin (as reset is useful to have alongside SWD).
+

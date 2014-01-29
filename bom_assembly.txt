@@ -1,0 +1,41 @@
+
+Fit on all boards in ring:
+
+Q1,Q2,Q3	DMG2305UX-13	P-Ch FET
+Q4,Q5,Q6	KSC2715YMTF_Q	NPN BJT
+
+U2	STP16CPC26XTR
+
+C1	4.7uF
+C3	10nF
+C5	0.1uF
+C6	0.1uF
+C10	2.2uF
+C4	1uF
+C13	1uF
+
+R2	680
+R3	4k7
+R5	4k7
+R7	4k7
+R1	10k
+R4	10k
+R6	10k
+
+SJ2	Close jumper on boards #2,3,4 but not board #1
+
+
+Fit on board #1 only:
+
+U1	STM32F051C6T6		Cortex-M0
+U3	AP2204K-3.3TRG1		150mA CMOS LDO 
+D16	CDSUR101A		Small switching diode
+C2	220uF
+C7	12.5pF
+C8	470pF
+C9	1uF
+C11	12.5pF
+C12	0.1uF
+X2	CFS206-32.768KDZF-UB	32KHz crystal	
+R13	50k
+LDR
