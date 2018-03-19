@@ -1,6 +1,9 @@
-# RGB Colourclock hardware designs
+RGB Colourclock hardware design
+===============================
 
-My RGB Colourclock is a circular wall clock with 60 RGB LEDs.
+19th March 2018
+
+My Colourclock is a circular wall clock with 60 RGB LEDs.  See <http://www.axio.ms/projects/2018/03/19/Colourclock.html> for information/pictures, and <http://github.com/evansm7/colourclock-fw> for firmware.
 
 This repository contains:
 
